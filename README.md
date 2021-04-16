@@ -3,6 +3,8 @@ Welcome to your Analytics Engineering assignment!
 Once you're done with the assignment, compress the results and send it back to HR. Don't forget to commit your changes,
 so we can follow the steps you took to arrive at the solution.
 
+**IMPORTANT:** Do **not** publish your results to a public git repository!
+
 # Using the this project
 
 0. Install [dbt](https://docs.getdbt.com/dbt-cli/installation)
@@ -20,8 +22,6 @@ dbt test
 
 We got you started with providing some data quality in the `feature/add_test`. Merge it to master and check if the tests
 work.
-
-**Note:** You will **not** be able to push your results to remote.
 
 # Task two: data modeling
 
