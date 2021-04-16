@@ -3,3 +3,5 @@ version: 2
 
 models:
   - name: raw_events
+    columns:
+      - name: event_id
