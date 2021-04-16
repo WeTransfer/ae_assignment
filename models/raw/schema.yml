@@ -3,3 +3,8 @@ version: 2
 
 models:
   - name: raw_events
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null

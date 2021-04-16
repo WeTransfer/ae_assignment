@@ -1,5 +1,5 @@
 select
-  sg_event_id,
+  sg_event_id as id,
   event,
   email,
   "timestamp",
