@@ -1,3 +1,5 @@
+[![Hippocratic License](https://img.shields.io/badge/license-Hippocratic-green)](https://raw.githubusercontent.com/WeTransfer/ae_assignment/master/LICENSE.md)
+
 Welcome to your Analytics Engineering assignment!
 
 Once you're done with the assignment, compress the results and send it back to HR. Don't forget to commit your changes,
