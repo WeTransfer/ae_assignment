@@ -4,4 +4,7 @@ version: 2
 models:
   - name: raw_events
     columns:
-      - name: event_id
+      - name: id
+        tests:
+          - unique
+          - not_null
