@@ -1,0 +1,19 @@
+
+version: 2
+
+models:
+  - name: delivery_rate
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - marketing_campaign_name
+            - marketing_campaign_version
+    columns:
+      - name: marketing_campaign_name
+        tests:
+          - not_null
+      - name: marketing_campaign_version
+        tests:
+          - not_null
+          - accepted_values:
+              values: [ 'A', 'B' ]
